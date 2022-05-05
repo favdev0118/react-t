@@ -45,6 +45,7 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  line-height: 26px;
 }
 
 .blog-preview:hover {
@@ -55,4 +56,10 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.delete {
+  border: 1px solid rgb(200, 196, 196);
+  border-radius: 10px;
+  padding: 0 5px;
 }
