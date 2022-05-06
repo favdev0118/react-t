@@ -7,7 +7,6 @@ const BlogList = ({title, blogs, handleDelete}) => {
                 <div className="blog-preview" key={blog.id}>
                     <h2>{blog.title}</h2>
                     <p>Written byt {blog.anothor}</p>
-                    <botton className="delete" onClick={()=> handleDelete(blog.id)}>delete blog</botton>
                 </div>          
             ))} 
         </div>
