@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BlogList = ({title, blogs, handleDelete}) => {
 
     return (  
@@ -5,8 +7,10 @@ const BlogList = ({title, blogs, handleDelete}) => {
             <h2>{title}</h2>
              {blogs.map((blog)=>(
                 <div className="blog-preview" key={blog.id}>
-                    <h2>{blog.title}</h2>
-                    <p>Written byt {blog.anothor}</p>
+                    <Link to={`/blogs/${blog.id}`}>
+                        <h2>{blog.title}</h2>
+                        <p>Written byt {blog.anothor}</p>
+                    </Link>
                 </div>          
             ))} 
         </div>
