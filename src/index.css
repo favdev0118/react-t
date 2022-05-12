@@ -4,7 +4,7 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   color: #333;
-
+  text-align: left;
 }
 
 .navbar {
@@ -85,6 +85,7 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .create input, .create textarea, .create select {
@@ -104,4 +105,8 @@
   border-radius: 8px;
   cursor: pointer;
   
+}
+
+.addBlog {
+  text-align: center;
 }
